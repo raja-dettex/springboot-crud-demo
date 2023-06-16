@@ -62,6 +62,11 @@ public class User {
 	public void setTimestampAdded(long timestampAdded) {
 		this.timestampAdded = timestampAdded;
 	}
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", name=" + name + ", email=" + email + ", password=" + password
+				+ ", timestampAdded=" + timestampAdded + "]";
+	}
 	
 	
 	
